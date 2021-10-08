@@ -1,0 +1,9 @@
+{
+    "template": "thread_list_macros",
+    "description": "Add staff post icon to thread list item.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"{$showWatched} AND {$xf.visitor.user_id}\">",
+    "replace": "<xf:if is=\"$thread.thstafftracker_adjusted_staff_post_count\">\n\t<li>\n\t\t<i class=\"structItem-status structItem-status--staffPost\"\n\t\t   aria-hidden=\"true\" title=\"{{ phrase('thstafftracker_has_x_staff_posts', {\n\t\t\t'count': $thread.thstafftracker_adjusted_staff_post_count\n\t\t\t})|for_attr }}\"></i>\n\t\t<span class=\"u-srOnly\">\n\t\t\t{{ phrase('thstafftracker_has_x_staff_posts', {\n\t\t\t'count': $thread.thstafftracker_adjusted_staff_post_count\n\t\t\t})\n\t\t\t}}\n\t\t</span>\n\t</li>\n</xf:if>\n$0"
+}

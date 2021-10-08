@@ -1,0 +1,9 @@
+{
+    "template": "thfilters_all_threads_list",
+    "description": "Add filter to filter bar",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$filters.starter_id AND $starterFilter\">",
+    "replace": "<xf:if is=\"$filters.staff\">\n\t<xf:set var=\"$showClearAll\" value=\"1\" />\n\t<li><a href=\"{{ link('canonical:' . $route, null, $filters|thaf_remove_array_key('staff')) }}\"\n\t\t   class=\"filterBar-filterToggle\"\n\t\t   data-xf-init=\"tooltip\"\n\t\t   title=\"{{ phrase('remove_this_filter')|for_attr }}\">\n\t\t<span class=\"filterBar-filterToggle-label\">{{ phrase('thstafftracker_threads_with_posts_by_staff') }}</span>\n\t\t</a></li>\n</xf:if>\n$0"
+}

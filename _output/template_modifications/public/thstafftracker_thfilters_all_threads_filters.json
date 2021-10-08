@@ -1,0 +1,9 @@
+{
+    "template": "thfilters_all_threads_filters",
+    "description": "Add threads with staff posts to find threads filter menu.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<xf:option.*name=\"started\".*>.*<\\/xf:option>/sU",
+    "replace": "$0\n<xf:option name=\"staff\" value=\"1\" selected=\"{$filters.staff}\">{{ phrase('thstafftracker_threads_with_posts_by_staff') }}</xf:option>"
+}

@@ -1,0 +1,1 @@
+If enabled, threads will count as having staff posts if the author of the first post is staff.

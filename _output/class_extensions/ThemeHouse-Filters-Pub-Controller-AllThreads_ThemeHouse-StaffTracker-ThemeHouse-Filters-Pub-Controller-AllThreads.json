@@ -1,0 +1,6 @@
+{
+    "from_class": "ThemeHouse\\Filters\\Pub\\Controller\\AllThreads",
+    "to_class": "ThemeHouse\\StaffTracker\\ThemeHouse\\Filters\\Pub\\Controller\\AllThreads",
+    "execute_order": 10,
+    "active": true
+}

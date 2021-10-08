@@ -1,0 +1,9 @@
+{
+    "template": "find_threads_list",
+    "description": "Add threads with staff posts to find threads list links.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/(<xf:elseif is=\"\\$pageSelected == 'contributed'\".*?)(<xf:else)/s",
+    "replace": "$1<xf:elseif is=\"$pageSelected == 'staff'\" />\n\t<xf:title page=\"{$page}\">{{ phrase('thstafftracker_threads_with_staff_posts') }}</xf:title>\n$2"
+}

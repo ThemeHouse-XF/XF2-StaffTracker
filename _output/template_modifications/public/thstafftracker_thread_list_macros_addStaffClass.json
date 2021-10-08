@@ -1,0 +1,9 @@
+{
+    "template": "thread_list_macros",
+    "description": "Add class to indicate staff have posted in a thread.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "{{ $thread.discussion_state == 'deleted' ? ' is-deleted' : '' }}",
+    "replace": "$0{{ $thread.thstafftracker_adjusted_staff_post_count > 0 ? ' thstafftracker-has-staff-post' : '' }}"
+}

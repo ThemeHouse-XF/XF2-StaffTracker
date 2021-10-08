@@ -1,0 +1,9 @@
+{
+    "template": "tools_rebuild",
+    "description": "Add \"Rebuild staff tracker cache\" to \"Rebuild threads\".",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/(<xf:set var=\"\\$threadBody\">\\s*<xf:checkboxrow>.*?)(<\\/xf:checkboxrow>)/s",
+    "replace": "$1\t<xf:option name=\"options[thstafftracker_rebuild]\" value=\"1\"\n\t\t\tlabel=\"{{ phrase('thstafftracker_rebuild_staff_tracker_cache') }}\"\n\t\t\thint=\"{{ phrase('thstafftracker_will_slow_process_down_only_needed_if_threads_showing_incorrectly') }}\" />\n\t$2"
+}

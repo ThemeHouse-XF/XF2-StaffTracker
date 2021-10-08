@@ -1,0 +1,9 @@
+{
+    "template": "find_threads_list",
+    "description": "Add threads with staff posts to find threads list links.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<a class=\"{\\$baseClass} {{ \\$pageSelected == 'contributed'.*?<\\/a>/s",
+    "replace": "$0\n\t<a class=\"{$baseClass} {{ $pageSelected == 'staff' ? {$selectedClass} : '' }}\"\n\t\thref=\"{{ link('find-threads/staff') }}\" rel=\"nofollow\">{{ phrase('thstafftracker_threads_with_staff_posts') }}</a>"
+}

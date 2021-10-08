@@ -1,0 +1,62 @@
+{
+    "nav.thstafftracker_staffThreads.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "85446c4ac668e635497ce1e03895fca3"
+    },
+    "option.thstafftracker_includeFirstPost.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "ade9d3abb80f87504f31506cc552618e"
+    },
+    "option_explain.thstafftracker_includeFirstPost.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "c6ef7f1bba07a173b6d1d648daa1368d"
+    },
+    "option_group.thstafftracker.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "dcd9dfda1bfd370f81af8e461c0ff826"
+    },
+    "option_group_description.thstafftracker.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "38550c52bcf4e061e95c95c35cd669af"
+    },
+    "thstafftracker_has_x_staff_posts.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4df93c45e9250f8e35a686e831b1cc4e"
+    },
+    "thstafftracker_rebuild_staff_tracker_cache.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "d4d97b7d546dc01a33c9cac0cc8377f4"
+    },
+    "thstafftracker_threads_with_posts_by_staff.txt": {
+        "global_cache": false,
+        "version_id": 1000093,
+        "version_string": "1.0.0 Patch Level 3",
+        "hash": "85446c4ac668e635497ce1e03895fca3"
+    },
+    "thstafftracker_threads_with_staff_posts.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "85446c4ac668e635497ce1e03895fca3"
+    },
+    "thstafftracker_will_slow_process_down_only_needed_if_threads_showing_incorrectly.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "73c83bb0ba9d8a19e7ab1e7f6df8406e"
+    }
+}

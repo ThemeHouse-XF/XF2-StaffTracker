@@ -1,0 +1,19 @@
+{
+    "legacy_addon_id": "",
+    "title": "[TH] Indicate Threads with Staff Replies",
+    "description": "Highlight threads with staff replies on thread lists.",
+    "version_id": 1000094,
+    "version_string": "1.0.0 Patch Level 4",
+    "dev": "ThemeHouse",
+    "dev_url": "https://www.themehouse.com",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": {
+        "XF": [
+            2010010,
+            "XenForo 2.1.0+"
+        ]
+    },
+    "icon": "icon.jpg"
+}

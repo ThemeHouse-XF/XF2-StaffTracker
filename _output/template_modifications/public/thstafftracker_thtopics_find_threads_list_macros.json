@@ -1,0 +1,9 @@
+{
+    "template": "thtopics_find_threads_list_macros",
+    "description": "Add threads with staff posts to find threads filter menu.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/<xf:option value=\"contributed\">.*?<\\/xf:option>/s",
+    "replace": "$0\n\t\t\t\t\t\t<xf:option value=\"staff\">{{ phrase('thstafftracker_threads_with_posts_by_staff') }}</xf:option>"
+}
